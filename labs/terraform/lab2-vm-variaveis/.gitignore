@@ -1,0 +1,13 @@
+# Terraform
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+crash.log
+
+# Variáveis locais (senha, configs privadas)
+terraform.tfvars
+
+# Chaves
+*.pem
+*.key
